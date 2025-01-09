@@ -3,8 +3,14 @@
     display: block;
     background-color: #fafafa;
     padding: 15px 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
 
 #friends-display-link i {
     color: rgba(0, 0, 0, 0.4);
+}
+
+.friends-screen {
+    padding: 0px var(--horizontal-space);
 }
