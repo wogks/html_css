@@ -12,3 +12,32 @@
     box-sizing: border-box;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
+
+.nav__link {
+    position: relative;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav__elip {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    display: flex;
+    position: absolute;
+    right: -5px;
+}
