@@ -14,3 +14,7 @@ body {
     height: 1000vh;
     counter-reset: #2e363e;
 }
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
