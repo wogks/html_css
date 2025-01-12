@@ -54,3 +54,17 @@
     margin-bottom: 30px;
     display: flex;
 }
+
+.user-component__colunm:last-child {
+    color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.user-component__time {
+    margin: 10px;
+    display: block;
+
+}
